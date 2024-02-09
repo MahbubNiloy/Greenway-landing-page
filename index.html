@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenway Academic Coaching</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header(logo, site name, menu) -->
+    <header>
+        <section class="top-nav">
+        <div class="left-container">
+            <a href="/"><img src="logo.png"></a>
+            <a class="logo-name" href="/"><h2><span class="greenway"><span style="color: green;">G</span>reenway</span><br><span class="academic"><span style="color: red;">A</span>cademic <span style="color: red;">C</span>oaching</span></h2></a>  
+        </div>
+        <div class="right-container">
+           <input id="menu-toggle" type="checkbox" />
+                <label class="menu-button-container" for="menu-toggle">
+                    <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                    <!-- nav menu links will go here -->
+                    <li><a href="/" style="text-decoration: none; color: white;">Home</a></li>
+                    <li><a href="" style="text-decoration: none; color: white;">Addmission</a></li>
+                    <li><a href="" style="text-decoration: none; color: white;">Gallary</a></li>
+                    <li><a href="" style="text-decoration: none; color: white;">Contact</a></li>
+                </ul>
+        </div>
+        </section>
+    </header>
+    <main>
+        <!-- slideshow container -->
+        <div class="section1">
+        <section class="slideshow-container">
+            <!-- Full-width images with number and caption text  -->
+            <div class="myslides fade">
+                <img src="Pic1.jpg" class="slidepic">
+                <div class="join-button"><button>Join us!</button></div>
+            </div>
+            <div class="myslides fade">
+                <img src="Pic2.jpg" alt="" class="slidepic">
+                <div class="join-button"><button>Join us!</button></div>
+            </div>
+            <div class="myslides fade">
+                <img src="Pic3.jpg" alt="" class="slidepic">
+                <div class="join-button"><button>Join us!</button></div>
+            </div>
+            <!-- Next and previous button  -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+        </section>
+        </div>
+        <!-- The dots/bullets  -->
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlides(1)"></span>
+            <span class="dot" onclick="currentSlides(2)"></span>
+            <span class="dot" onclick="currentSlides(3)"></span>
+        </div>
+        <!-- Why people choose us section -->
+        <div id="section2">
+            <div class="section2-title"><h1>WHY PEOPLE CHOOSE US</h1></div>
+            <div class="section2-row1">
+                <div class="box1">
+                    <div class="one"><span class="number1">1</span>
+                        <div class="intext1">
+                            <p><strong>QUALIFIED TEACHER</strong></p>
+                            <p>All the lecturers are well qualified and experienced in their respective subjects. Qualified teachers recognize that each student is unique, with their own strengths and challenges</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="two"><span class="number2">2</span>
+                        <div class="intext2">
+                            <p><strong>ADEQUATE RESOURCES</strong></p>
+                            <p>Classroom resources are key tools to improve the learning process. Adequate resources and facilities have a significant influence on teachers in teaching</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="three"><span class="number3">3</span>
+                        <div class="intext3">
+                            <p><strong>SAFE LEARNING ENVIRONMENT</strong></p>
+                            <p>Students can explore values and attitudes, express opinions and consider those of others without attracting negative feedback.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section2-row2">
+                <div class="box4">
+                    <div class="four"><span class="number4">4</span>
+                        <div class="intext4">
+                            <p><strong>SUPPORTIVE COMMUNITY</strong></p>
+                            <p>Establishing a culture of positive community involvement enriches the learning experience by bringing real-world perspectives into the classroom.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box5">
+                    <div class="five"><span class="number5">5</span>
+                        <div class="intext5">
+                            <p><strong>CO-CURRICULAR ACTIVITY</strong></p>
+                            <p>Co-curricular activities help hone the talents of young minds and give them an opportunity to develop their specialized skills.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box6">
+                    <div class="six"><span class="number6">6</span>
+                        <div class="intext6">
+                            <p><strong>OVERALL QUALITY</strong></p>
+                            <p>Discover excellence at our institution, where quality is not just a standard, but a way of life. We empower students to thrive and succeed in their academic and personal endeavors</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About programs, teachers, events and more -->
+        <div class="section3">
+            <div class="section3-bgcolor">
+                <div class="section3-content-box" id="section3-box1">
+                    <div class="box-logo"><img src="programs.jpg" alt="" class="box-logo"></div>
+                    <div class="box-title">PROGRAMS</div>
+                    <div class="box-description">We specialize in providing high-quality education to students spanning grades 6 through 12 within our esteemed institution.</div>
+                    <!-- programs page link -->
+                    <div><a href="" class="box-more">MORE</a></div>
+                </div>
+                <div class="section3-content-box" id="section3-box2">
+                    <div class="box-logo"><img src="results.jpg" alt="" class="box-logo"></div>
+                    <div class="box-title">RESULTS</div>
+                    <div class="box-description">Our institution consistently demonstrates commendable academic outcomes, reflective of our commitment to excellence in education.</div>
+                    <!-- Results page link -->
+                    <div><a href="" class="box-more">MORE</a></div>
+                </div>
+                <div class="section3-content-box" id="section3-box3">
+                    <div class="box-logo"><img src="lecturer.jpg" alt="" class="box-logo"></div>
+                    <div class="box-title">LECTURERS</div>
+                    <div class="box-description">We pride ourselves on offering instruction delivered by esteemed educators hailing from leading universities.</div>
+                    <!-- Teachers page link -->
+                    <div><a href="" class="box-more">MORE</a></div>
+                </div>
+               <div class="section3-content-box" id="section3-box4">
+                    <div class="box-logo"><img src="events.jpg" alt="" class="box-logo"></div>
+                    <div class="box-title">EVENTS</div>
+                    <div class="box-description">From academic symposiums to cultural celebrations, our events foster engagement, collaboration, and intellectual growth.</div>
+                    <!-- Events page link -->
+                    <div><a href="" class="box-more">MORE</a></div>
+               </div>
+            </div>
+        </div>
+        <!-- Section No 4 -->
+        <Section class="section4">
+            <p>Little More About Us</p>
+            <h1>Your Kids is Our Future</h1>
+            <p class="section4-description">
+                Today's children represent the promise and potential of tomorrow, embodying the future we collectively strive to build. With each young mind comes a world of possibility, brimming with creativity, curiosity, and boundless potential. Nurturing and educating children is not just a duty but a profound responsibility—one that shapes the trajectory of generations to come. As caretakers of their growth and guardians of their dreams, it is our solemn commitment to provide them with the tools, guidance, and support they need to flourish. By investing in their education, fostering their talents, and instilling values of empathy, resilience, and innovation, we empower our children to become compassionate leaders, visionary thinkers, and catalysts for positive change in an ever-evolving world
+            </p>
+            <!--Section4 Little more about us page link will go here -->
+            <button href="" class="section4-button">READ MORE</button>
+        </Section>
+        <!-- Contact Section -->
+        <Section class="contact-section">
+            <div class="contact-section-heading">
+                CONTACT
+                <div class="contact-section-heading-overlay">GET IN TOUCH</div>
+            </div>
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+        </Section>
+ 
+    </main>
+    <footer>
+        <div>
+            <p>&copy;Greenway Academic Coaching, All right reserved 2024</p>
+        </div>
+    </footer>
+    ,<script src="script.js"></script>
+</body>
+</html>
