@@ -15,7 +15,7 @@ header{
 .logo-name{
     text-decoration: none;
     color: rgb(221, 218, 218);
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .greenway:hover{
     color: green;
@@ -91,6 +91,12 @@ header{
 }
 
 @media (max-width: 700px){
+    .left-container{
+        align-items: center;
+    }
+    .logo-name{
+        font-size: 1.2rem;
+    }
     .menu-button-container{
         display: flex;
     }
@@ -267,6 +273,19 @@ button:hover{
     top: 30px;
     text-align: center; 
 }
+/* second section for mobile view */
+    @media (max-width: 700px){
+        .section2-title{
+
+        }
+        .section2-row1, .section2-row2{
+            display: flex;
+            flex-direction: column;
+        }
+        .box1, .box2, .box3, .box4, .box5, .box6{
+            margin-top: -20px;
+        }
+    }
 /* Third section of landing page */
 .section3{
     display: flex;
@@ -321,7 +340,26 @@ button:hover{
     border-bottom: 1px solid;
     font-weight: bold;
 }
-
+/* third section mobile view */
+    @media (max-width: 700px){
+        .section3{
+            margin-top: -50px;
+        }
+        .section3-bgcolor{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+        #section3-box1{
+            top: -100px;
+        }
+        #section3-box3{
+            top: -120px;
+        }
+        #section3-box4{
+            top: -130px;
+        }
+    }
 /* fourth section of landing page */
 .section4{
     background-color: greenyellow;
@@ -345,6 +383,10 @@ button:hover{
     font-weight: bold;
     cursor: pointer;
 }
+/* fourth section mobile view */
+    @media (max-width: 700px){
+
+    }
 /* Contact section of landing page */
 #contact-section{
     background-color: #000000;
